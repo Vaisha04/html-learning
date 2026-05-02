@@ -1,0 +1,350 @@
+<!-- HTML Basic -->
+<!-- HTML Declaration abou version of HTML-->
+<!DOCTYPE html>
+
+<!-- language choice with HTML Tag -->
+<html lang="en">
+
+
+<!-- head tag, Title tag, Meta tag -->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a page which contain basic about HTML">
+
+  <title>HTML Basic</title>
+
+  <!-- CSS Connection -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- Body tag -->
+
+<body>
+
+  <!-- first line of code -->
+  hello world 123
+
+
+  <!-- Heading tag -->
+  <h1>my bookmark</h1>
+  <h2>my bookmark my books </h2>
+  <h3>my bookmark my books </h3>
+  <h4>my bookmark my books </h4>
+  <h5>my bookmark</h5>
+  <h6>my bookmark</h6>
+  <h2>Primary Bookmark</h2>
+
+
+  <!-- link tag -->
+  <a target="_blank" href="https://www.google.com">Open Google</a><br>
+  <a target="_blank" href="https://web.dev">web.dev</a>
+
+  <!-- break tag -->
+  <br>
+
+
+  <!-- image tag -->
+  <img src="C:\Users\swati\Desktop\OIP.webp" alt="cat"><br>
+  <img height=230 width="200" src="cat.jpg" alt="cat"><br>
+
+
+  <!-- paragraph tag -->
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti architecto quo inventore
+    consectetur, necessitatibus odit. Esse odio quod officia voluptas voluptate! Ducimus alias, adipisci doloribus sit
+    quos officiis quaerat.</p><br>
+
+
+  <!-- table -caption tag,thead tag,tfoot tag,tbody tag,tr(rows),td(colunm),th(heading of table) -->
+  <table>
+
+    <caption>Student Details</caption>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Language</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Harry</td>
+        <td>Programmer</td>
+        <td>JavaScript</td>
+      </tr>
+
+      <!-- colspan (combine colunms), rowspan(combine rows) -->
+      <tr>
+        <td colspan="2">Sam</td>
+        <td rowspan="2">Java</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Sam</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Sam</td>
+        <td rowspan="2">footer</td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <!-- unorder list -->
+  <ul type="Square">
+    <!-- list tag -->
+    <li>Harry</li>
+    <li>Rohan</li>
+    <li>Shubham</li>
+  </ul>
+
+
+  <!-- order list -->
+  <ol type="A">
+    <li>Harry</li>
+    <li>Rohan</li>
+    <li>Shubham</li>
+  </ol>
+
+
+  <h1>Defination</h1>
+  <!-- Defination list -->
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language: The standard language for creating web pages</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written
+      in HTML</dd>
+  </dl>
+
+
+  <h1>Form to apply</h1>
+  <!-- from tag -->
+  <form action="post">
+
+
+    <!-- Div tag -- block element (give new space prefer this one more than br tag) -->
+    <div>
+
+
+      <!-- label tag -->
+      <label for="username">Enter your User Name</label>
+
+
+      <!-- input tag for text-->
+      <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+    </div>
+
+
+    <!-- input tag foe password -->
+    <div>
+      <label for="password">Enter your Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" </div>
+
+
+      <!-- input tag for radio buttons-->
+      <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+
+      <!-- input tag for checkbox -->
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscibe to newsletter</label>
+      </div>
+
+
+      <!-- input tag for text /comment area -->
+      <div>
+        <label for="comment">Enter your comment</label><br>
+        <textarea name="comment" rows="4" cols="50"></textarea>
+      </div>
+
+
+
+      <!-- input tag for select-->
+      <div>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+  </form>
+
+  <!-- 
+  Inline element do not start on a new line and only take up as much width as necessary
+  Block element are those that start on new line and take up the entire width of their container by default.
+  They essentially claim all the horizontal space for the themselves pushing any content that comes after them to a new line 
+  This both are also called display property which is set through css through css we ca change inline and block property of elements-->
+
+  <h1>Inline and Block elements</h1>
+  <p>hey i am para </p> <!-- block element <p></p> -->
+  <a href="https://google.com">Google</a> <!-- Inline element <a></a> -->
+  <div>I am div and i am block element </div>
+  <span>I am span and i am Inline element</span>
+  <a>I am anchor and span is inline element just like me</a>
+
+
+  <!-- Quick Quiz:
+   Without using br tag, write a vertically aligned form asking for name, city and pincode of user -->
+
+  <h2>Information Form </h2>
+  <div>
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name">
+  </div>
+
+  <div>
+    <label for="name">City</label>
+    <input type="text" placeholder="Enter your city">
+  </div>
+
+  <div>
+    <label for="name">Pincode</label>
+    <input type="text" placeholder="Enter your Pincode">
+  </div>
+
+
+
+  <!-- what is id?
+   An ID is an attribute, a unique identifier assigned to only one HTML element within a page.
+   It is often used for unique styling and JavaScript manipulations -->
+  <!-- what are Classes?
+   The class attribute lets you give the same name to multiple HTML elements.
+   That way, you can easily change their look or behaviour all at once. CLasses are not unique and can be assigned to multiple elements.
+   They are generally used for applying the sane styles or behaviors to group of elements  -->
+  <!-- ID and Classes are elements attribute  -->
+
+  <h2>ID and CLasses</h2>
+  <div id="firstdiv" class="red bg-yellow">First</div>
+  <div id="seconddiv">Second</div>
+  <span class="red">Span</span>
+
+
+
+
+  <h2>Audio, video, svg img, iframe tags</h2>
+
+  <!-- video tag -->
+  <video src="C:\Users\swati\Desktop\video.mp4" height="200" width="200" controls loop
+    poster="C:\Users\swati\Desktop\cup.jpg" muted></video>
+
+  <!-- audio tag -->
+  <audio src="C:\Users\swati\Desktop\sample-15s.mp3" controls loop muted></audio>
+
+  <!-- svg tag -->
+  <!-- If you want to creat svg image use following tag -->
+  <svg height="100" width="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+  </svg>
+
+
+  <!-- Also if you want create svg image in athoer text file of vs code and add image in html file use fillowing code.
+  <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+  </svg> 
+  later add image tag as shown below
+  line xmlns="http://www.w3.org/2000/svg" is important without this image can't see-->
+  <img src="img.svg" alt="My svg image">
+
+
+  <!-- iframe tag (use to show website)-->
+  <iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="444" height="444"></iframe>
+  </iframe>
+
+
+  <!-- iframe also show youtube video.Click in share embed copy code and paste in html file -->
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/ysz5S6PUM-U" allowfullscreen>
+  </iframe>
+
+
+  <!-- Semantic Tags
+  Using HTML's semantic tags can greatly benefit both your website"s SEO(Search Engine Optimization) and the maintainability of your code.
+  They offer a way to structure your HTML in a meaningful manner, making your website more accessible and easier to understand. -->
+  <h2>Semantic Tags</h2>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h4>In semantic tags it includes differen types of Tags</h4>
+    <ul>
+      <li>header</li>
+      <li>nav</li>
+      <li>article</li>
+      <li>section </li>
+      <li>aside</li>
+      <li>footer</li>
+      <li>figure</li>
+      <li>main</li>
+      <li>time</li>
+    </ul>
+  </main>
+  <footer>
+    Copyright | All right reserved
+  </footer>
+
+  <h2>HTML Points</h2>
+
+  <!-- What is you want to write <p></p> in html? use 
+   for this (<) use (&lt) and for this (>) use (&gt)  -->
+  This is the code for paragraph &lt;p&gt;&lt;/p&gt;
+
+  <!-- use of pre tag. It print as it is -->
+  <pre>
+    <p>This is a para </p>
+
+
+
+    this is after few lines        and some more spcae 
+   </pre>
+
+  <!-- Want to add symbol -->
+  Copyright &copy; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; HTML
+  <!-- &nbsp use for space  -->
+
+  <!-- Use of quotation tag -->
+  <blockquote>
+    Quotation text here
+  </blockquote>
+
+  <!-- Use of code tag -->
+  <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
+
+
+
+  <!-- JS Connection -->
+  <script src="script.js"></script>
+
+
+</body>
+</html>

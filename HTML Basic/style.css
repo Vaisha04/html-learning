@@ -1,0 +1,54 @@
+/* Background colour syntax */
+body {
+    background-color: skyblue;
+}
+
+
+/* Table border syntax */
+td {
+    border: 2px solid black;
+}
+
+
+/* Inline element do not start on a new line and only take up as much width as necessary
+  Block element are those that start on new line and take up the entire width of their container by default. They essentially claim all the horizontal space for the themselves pushing any content that comes after them to a new line 
+  This both are also called display property which is set through css through css we ca change inline and block property of elements */
+
+
+/* p mans paragraph of html file */
+p {
+    background-color: rgb(170, 127, 255);
+}
+
+
+/* a means anchor tag use for link in html file */
+a {
+    background-color: rgb(255, 112, 112);
+}
+
+/* div and span in html */
+/*   div{
+    background-color: blueviolet;
+  } */
+span {
+    background-color: coral;
+}
+
+/* dot(.) use for classes */
+
+
+/* .red {
+    background-color: rgb(232, 64, 145);
+} */
+
+/* .bg-yellow {
+    background-color: yellow;
+} 
+ */
+
+/* hastag (#) use for ID */
+
+/* 
+ #firstdiv {
+    background-color: cadetblue;
+}  */
