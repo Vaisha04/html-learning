@@ -8,4 +8,3 @@ Topics Covered :-
     Forms and inputs
     Layout Basics
     Linking CSS and JavaScript
-    
